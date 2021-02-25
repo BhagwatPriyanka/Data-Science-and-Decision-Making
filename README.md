@@ -1,4 +1,4 @@
 # CE888
 
-Data Science and Decision Making Module
+Lab works of Data Science and Decision Making Module
 
