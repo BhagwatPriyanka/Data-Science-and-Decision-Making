@@ -18,7 +18,7 @@ with open('Models/svm_clf_model.pkl', 'rb') as f:
     svm_model = pickle.load(f)
 
 
-def get_predictions(price, Tax, Driver_Age, Licence_Length_Years, req_model):
+def get_predictions(age, sex, cp, req_model):
     mylist = [Driver_Age, Tax, price, Licence_Length_Years]
     mylist = [float(i) for i in mylist]
     vals = [mylist]
